@@ -52,7 +52,6 @@ const Home = () => {
 							  className="x"
 							  onClick={() => setTodos(todos.filter((_, currentIndex) => index !== currentIndex))}
 						  >
-							  🅧
 						  </span>
 					  </li>
 				  ))}
