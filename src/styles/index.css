@@ -2,15 +2,18 @@
 
 body {
     margin-top: 100px;
-    background-color: beige;
+    background-color: lightblue
 }
 
 h1 {
-    border: 1px solid black;
+    border: 9px solid lightpink;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+    border-style: dotted;
+    color: white;
 }
 
 ul {
@@ -18,13 +21,25 @@ ul {
 }
 
 ul li {
-    border: 1px solid grey;
     list-style: none;
     padding: 5px;
     width: 100%;
+    border-style: dotted;
+    border: 2px solid lightpink;
+    color: white
 }
 
 input {
     border: none;
     width: 100%;
+    background-color: lightpink;
+    
 }
+
+button {
+    background:lightpink;
+    color: white;
+    border-color: white;
+}
+
+
